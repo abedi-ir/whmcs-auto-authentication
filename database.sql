@@ -1,0 +1,1 @@
+ALTER TABLE `tblclients` ADD `auto_auth_token` VARCHAR(64) CHARACTER SET latin1 COLLATE latin1_general_cs NULL DEFAULT NULL AFTER `allow_sso`, ADD UNIQUE (`auto_auth_token`);
